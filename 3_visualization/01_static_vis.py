@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# hola soy jonathan
+# hola soy jonathan ramirez
 st.header('matplotlib and searborn visualization in streamlit')
 
 # load the data
