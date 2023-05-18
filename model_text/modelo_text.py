@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import string
 #from sklearn.externals import joblib
-import joblib
+#import joblib
 import pickle
 
 import numpy as np
@@ -20,8 +20,8 @@ def tokenize(sentence):
             tokens.append("".join(new_token))
     return tokens
 
-#with open('./niv_vectorizer', 'rb') as vect:
-vectorizer = joblib.load('./niv_vectorizer')
+with open('./niv_vectorizer', 'rb') as vect:
+    vectorizer = pickle.load(vect)
 #with open('./niv_class_label', 'rb') as sup:
 #with open('maq_sup_vect.sav', 'rb') as clssier:
 #    svm = pickle.load(clssier)    
