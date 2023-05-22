@@ -1,5 +1,5 @@
-streamlit==1.12.0
-pandas==1.2.4
+streamlit==1.15.2
+pandas==1.5.2
 matplotlib
 seaborn
 altair==4.2.0
