@@ -10,7 +10,7 @@ import seaborn as sns
 st.header('matplotlib and searborn visualization in streamlit')
 
 # load the data
-df = pd.read_csv('tips.csv')
+df = pd.read_csv('./tips.csv')
 st.dataframe(df.head())
 
 ## Questions
