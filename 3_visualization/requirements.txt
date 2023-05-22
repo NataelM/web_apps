@@ -1,3 +1,4 @@
+streamlit==1.12.0
 pandas==1.2.4
 matplotlib
 seaborn
@@ -36,7 +37,6 @@ rich==12.6.0
 semver==2.13.0
 six==1.16.0
 smmap==5.0.0
-streamlit==1.15.2
 streamlit-lottie==0.0.3
 tenacity==8.1.0
 toml==0.10.2
