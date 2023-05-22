@@ -4,12 +4,15 @@ import numpy as np
 # static
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 
 # hola soy jonathan ramirez
 st.header('matplotlib and searborn visualization in streamlit')
 
 # load the data
-df = pd.read_csv("tips.csv")
+current_path = Path("tips.csv").resolve()
+df = pd.read_csv(current_path.parents[0] / '3_visualization' / 'tips.csv')
+#df = pd.read_csv("tips.csv")
 st.dataframe(df.head())
 
 ## Questions
